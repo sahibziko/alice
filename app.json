@@ -1,0 +1,55 @@
+{
+  "name": "Telegram Music Bot",
+  "description": "Pyrogram Telegram bot",
+  "stack": "container",
+  "env": {
+    "DURATION_LIMIT": {
+      "value": "60"
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Your Heroku app name"
+    },
+    "HEROKU_API_KEY": {
+      "description": "Your Heroku API key"
+    },
+    "UPSTREAM_REPO": {
+      "value": "https://github.com/rishabhops/alice"
+    },
+    "UPSTREAM_BRANCH": {
+      "value": "main"
+    },
+    "GIT_TOKEN": {
+      "description": "Git token (optional)"
+    },
+    "AUTO_LEAVING_ASSISTANT": {
+      "value": "False"
+    },
+    "SPOTIFY_CLIENT_ID": {
+      "description": "Spotify client id"
+    },
+    "SPOTIFY_CLIENT_SECRET": {
+      "description": "Spotify client secret"
+    },
+    "PLAYLIST_FETCH_LIMIT": {
+      "value": "25"
+    },
+    "TG_AUDIO_FILESIZE_LIMIT": {
+      "value": "104857600"
+    },
+    "TG_VIDEO_FILESIZE_LIMIT": {
+      "value": "2145386496"
+    },
+    "STRING_SESSION2": {
+      "description": "Optional second session"
+    },
+    "STRING_SESSION3": {
+      "description": "Optional third session"
+    },
+    "STRING_SESSION4": {
+      "description": "Optional fourth session"
+    },
+    "STRING_SESSION5": {
+      "description": "Optional fifth session"
+    }
+  }
+}
